@@ -1,0 +1,12 @@
+ALGORITHM exer
+VAR
+    num1,num2:FLOAT;
+    produit:FLOAT:=0;
+BEGIN
+    write("entrer le premier num");
+    read(num1);
+    write("entrer le 2ème num");
+    read(num2);
+    produit:=num1*num2;
+    write("le produit est :", produit);
+END

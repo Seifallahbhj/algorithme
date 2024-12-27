@@ -1,0 +1,8 @@
+ALGORITHM Facebook
+VAR
+    prenom,nom_nom_de_famille,genre,email,mois,mot_de_passe:STRING;
+    jour,ans,numéro:INTEGER;
+    
+BEGIN
+    read(prenom,nom_nom_de_famille,genre,email,mois,mot_de_passe,jour,ans,numéro)
+END

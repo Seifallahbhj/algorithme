@@ -1,0 +1,13 @@
+ALGORITHM exer3
+VAR
+    num1:INTEGER;
+BEGIN
+    write("enter un entier");
+    read(num1);
+    IF (num1%2=0) THEN
+        write("le numero est pair");
+    ELSE
+        write("le numero est impair");
+    END_IF
+    
+END

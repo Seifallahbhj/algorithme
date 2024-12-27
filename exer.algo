@@ -1,0 +1,14 @@
+ALGORITHM exer3
+VAR
+    A,B,C:INTEGER;
+BEGIN
+    write("entrer le premier entier");
+    read(A);
+    write("entrer le 2ème entier");
+    read(B);
+    write("A avant l'echange",A,"B avant l'echange",B)
+    C:=A;
+    A:=B;
+    B:=C;
+    write("A après l'echange",A,"B après l'echange",B)
+END
